@@ -1,0 +1,91 @@
+{
+    "os": "Linux-6.5.0-27-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-05-17T07:57:49.477737",
+    "startedAt": "2024-05-17T07:57:48.652032",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:mvclab-ntust-course/course4-tsungHannn.git",
+        "commit": null
+    },
+    "email": "tsunghan8814@gmail.com",
+    "root": "/home/mvclab/workspace/MVC_course/course4-tsungHannn",
+    "host": "john",
+    "username": "mvclab",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 4.499499999999999,
+        "min": 800.0,
+        "max": 4700.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4.5,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.499,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.499,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.5,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.499,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.5,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.499,
+            "min": 800.0,
+            "max": 4700.0
+        },
+        {
+            "current": 4.5,
+            "min": 800.0,
+            "max": 4700.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 467.8876266479492,
+            "used": 384.28732681274414
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 2080",
+    "gpu_count": 2,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.26947021484375
+    }
+}

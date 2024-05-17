@@ -1,0 +1,98 @@
+Freezing layer 'model.22.dfl.conv.weight'
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+Downloading https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov8n.pt to 'yolov8n.pt'...
+100%|██████████| 6.23M/6.23M [00:02<00:00, 3.19MB/s]
+/home/mvclab/.local/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[34m[1mAMP: [39m[22mchecks passed ✅
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/train/images/26d663ab5ffbec49f9dc8e592982cfd4_jpg.rf.0fe973299ff9e73874d9e684cba4e406.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/train/images/26d663ab5ffbec49f9dc8e592982cfd4_jpg.rf.5e1a9d49ad09f5a7549225a05e1f66a6.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mWARNING ⚠️ /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/train/images/26d663ab5ffbec49f9dc8e592982cfd4_jpg.rf.bb226be189ee3a6399fbbd5080852e5b.jpg: 1 duplicate labels removed
+[34m[1mtrain: [39m[22mNew cache created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/train/labels.cache
+[34m[1mval: [39m[22mNew cache created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/valid/labels.cache
+[34m[1mtrain: [39m[22mScanning /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/train/labels... 606 images, 0 backgrounds, 0 corrupt: 100%|██████████| 606/606 [00:00<00:00, 3181.62it/s]
+[34m[1mval: [39m[22mScanning /home/mvclab/workspace/MVC_course/course4-tsungHannn/datasets/valid/labels... 58 images, 0 backgrounds, 0 corrupt: 100%|██████████| 58/58 [00:00<00:00, 2948.37it/s]
+Plotting labels to runs/detect/train10/labels.jpg...
+[34m[1moptimizer:[39m[22m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically...
+[34m[1moptimizer:[39m[22m AdamW(lr=0.000588, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 640 train, 640 val
+Using 4 dataloader workers
+Logging results to [1mruns/detect/train10
+Starting training for 10 epochs...
+Closing dataloader mosaic
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+
+       1/10      2.38G      4.877       5.13      4.158        148        640: 100%|██████████| 38/38 [00:06<00:00,  5.54it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:01<00:00,  1.78it/s]
+                   all         58        386          0          0          0          0
+       2/10       2.2G      4.354        4.5      4.038        164        640:  18%|█▊        | 7/38 [00:00<00:03,  8.67it/s]
+
+       2/10       2.2G      3.697      4.112      3.694         75        640: 100%|██████████| 38/38 [00:04<00:00,  9.04it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  7.68it/s]
+                   all         58        386          0          0          0          0
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       3/10       2.2G      2.952      3.482      3.072        196        640:  95%|█████████▍| 36/38 [00:03<00:00,  9.16it/s]
+                   all         58        386          0          0          0          0
+       3/10       2.2G      2.928      3.468      3.057         92        640: 100%|██████████| 38/38 [00:04<00:00,  9.11it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  7.80it/s]
+
+       4/10      2.23G      2.381      2.895      2.682        113        640: 100%|██████████| 38/38 [00:04<00:00,  9.45it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  5.18it/s]
+       5/10      2.19G      2.547      2.861      2.585        127        640:   3%|▎         | 1/38 [00:00<00:04,  8.61it/s]
+                   all         58        386     0.0566      0.418     0.0766     0.0467
+
+       5/10      2.19G      2.164      2.553      2.423        230        640: 100%|██████████| 38/38 [00:03<00:00,  9.61it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95):   0%|          | 0/2 [00:00<?, ?it/s]
+                   all         58        386      0.278      0.525      0.272      0.135
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  4.11it/s]
+
+       6/10       2.2G      2.044      2.323      2.287        145        640: 100%|██████████| 38/38 [00:04<00:00,  9.41it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.50it/s]
+       7/10      2.21G       2.15      2.674       2.36         86        640:   3%|▎         | 1/38 [00:00<00:04,  8.23it/s]
+                   all         58        386      0.221      0.627      0.368      0.194
+
+
+       7/10      2.21G      1.914      2.156      2.155        172        640: 100%|██████████| 38/38 [00:04<00:00,  9.00it/s]
+                   all         58        386      0.287      0.727      0.466      0.274
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.25it/s]
+       8/10      2.21G      1.871      2.046      2.122        224        640:  21%|██        | 8/38 [00:00<00:03,  9.19it/s]
+
+       8/10      2.21G      1.836      2.049       2.05        166        640: 100%|██████████| 38/38 [00:04<00:00,  9.41it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.76it/s]
+                   all         58        386      0.319      0.679      0.486      0.272
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       9/10      2.19G      1.797      1.947      2.061        169        640:  95%|█████████▍| 36/38 [00:03<00:00,  9.40it/s]
+       9/10      2.19G      1.793      1.944      2.056        146        640: 100%|██████████| 38/38 [00:04<00:00,  9.37it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.10it/s]
+      10/10       2.2G      1.682        1.8      2.021        170        640:  13%|█▎        | 5/38 [00:00<00:03,  9.72it/s]
+
+      10/10       2.2G      1.731      1.915       2.01        128        640: 100%|██████████| 38/38 [00:03<00:00,  9.68it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:00<00:00,  3.85it/s]
+                   all         58        386      0.355      0.652      0.517      0.332
+10 epochs completed in 0.016 hours.
+Optimizer stripped from runs/detect/train10/weights/last.pt, 6.3MB
+Optimizer stripped from runs/detect/train10/weights/best.pt, 6.3MB
+Validating runs/detect/train10/weights/best.pt...
+Ultralytics YOLOv8.2.16 🚀 Python-3.10.12 torch-2.2.0+cu121 CUDA:0 (NVIDIA GeForce RTX 2080, 7967MiB)
+YOLOv8n summary (fused): 168 layers, 3008183 parameters, 0 gradients, 8.1 GFLOPs
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 2/2 [00:01<00:00,  1.33it/s]
+                   all         58        386      0.345      0.641      0.533      0.333
+          black-bishop         58         22       0.29      0.279      0.428      0.256
+            black-king         58         29      0.649      0.862      0.709      0.505
+          black-knight         58         30      0.344      0.933      0.521      0.321
+            black-pawn         58         77      0.615          1      0.991       0.66
+           black-queen         58         11      0.259      0.727      0.582      0.369
+            black-rook         58         28      0.278      0.429      0.291      0.175
+          white-bishop         58         22      0.219      0.409      0.217      0.128
+            white-king         58         29      0.436      0.966      0.761      0.401
+          white-knight         58         19      0.146      0.474       0.27      0.119
+            white-pawn         58         77      0.537      0.987      0.966      0.638
+           white-queen         58         16      0.344      0.591      0.447      0.288
+            white-rook         58         26     0.0278     0.0385      0.214      0.133
+Speed: 0.3ms preprocess, 1.9ms inference, 0.0ms loss, 5.0ms postprocess per image
+Results saved to [1mruns/detect/train10

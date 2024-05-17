@@ -1,0 +1,496 @@
+2024-05-17 15:57:48,655 INFO    StreamThr :3186429 [internal.py:wandb_internal():85] W&B internal server running at pid: 3186429, started at: 2024-05-17 15:57:48.655051
+2024-05-17 15:57:48,656 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status
+2024-05-17 15:57:48,658 INFO    WriterThread:3186429 [datastore.py:open_for_write():87] open: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/run-rep304yt.wandb
+2024-05-17 15:57:48,658 DEBUG   SenderThread:3186429 [sender.py:send():378] send: header
+2024-05-17 15:57:48,661 DEBUG   SenderThread:3186429 [sender.py:send():378] send: run
+2024-05-17 15:57:49,276 INFO    SenderThread:3186429 [dir_watcher.py:__init__():211] watching files in: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files
+2024-05-17 15:57:49,276 INFO    SenderThread:3186429 [sender.py:_start_run_threads():1123] run started: rep304yt with start time 1715932668.65534
+2024-05-17 15:57:49,284 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: check_version
+2024-05-17 15:57:49,284 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: check_version
+2024-05-17 15:57:49,454 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: run_start
+2024-05-17 15:57:49,459 DEBUG   HandlerThread:3186429 [system_info.py:__init__():26] System info init
+2024-05-17 15:57:49,459 DEBUG   HandlerThread:3186429 [system_info.py:__init__():41] System info init done
+2024-05-17 15:57:49,459 INFO    HandlerThread:3186429 [system_monitor.py:start():194] Starting system monitor
+2024-05-17 15:57:49,459 INFO    SystemMonitor:3186429 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-17 15:57:49,460 INFO    HandlerThread:3186429 [system_monitor.py:probe():214] Collecting system info
+2024-05-17 15:57:49,460 INFO    SystemMonitor:3186429 [interfaces.py:start():188] Started cpu monitoring
+2024-05-17 15:57:49,460 INFO    SystemMonitor:3186429 [interfaces.py:start():188] Started disk monitoring
+2024-05-17 15:57:49,461 INFO    SystemMonitor:3186429 [interfaces.py:start():188] Started gpu monitoring
+2024-05-17 15:57:49,462 INFO    SystemMonitor:3186429 [interfaces.py:start():188] Started memory monitoring
+2024-05-17 15:57:49,462 INFO    SystemMonitor:3186429 [interfaces.py:start():188] Started network monitoring
+2024-05-17 15:57:49,477 DEBUG   HandlerThread:3186429 [system_info.py:probe():150] Probing system
+2024-05-17 15:57:49,479 DEBUG   HandlerThread:3186429 [system_info.py:_probe_git():135] Probing git
+2024-05-17 15:57:49,481 DEBUG   HandlerThread:3186429 [system_info.py:_probe_git():143] Probing git done
+2024-05-17 15:57:49,481 DEBUG   HandlerThread:3186429 [system_info.py:probe():198] Probing system done
+2024-05-17 15:57:49,481 DEBUG   HandlerThread:3186429 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-27-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-05-17T07:57:49.477737', 'startedAt': '2024-05-17T07:57:48.652032', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'git@github.com:mvclab-ntust-course/course4-tsungHannn.git', 'commit': None}, 'email': 'tsunghan8814@gmail.com', 'root': '/home/mvclab/workspace/MVC_course/course4-tsungHannn', 'host': 'john', 'username': 'mvclab', 'executable': '/usr/bin/python3', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 4.499499999999999, 'min': 800.0, 'max': 4700.0}, 'cpu_freq_per_core': [{'current': 4.5, 'min': 800.0, 'max': 4700.0}, {'current': 4.499, 'min': 800.0, 'max': 4700.0}, {'current': 4.499, 'min': 800.0, 'max': 4700.0}, {'current': 4.5, 'min': 800.0, 'max': 4700.0}, {'current': 4.499, 'min': 800.0, 'max': 4700.0}, {'current': 4.5, 'min': 800.0, 'max': 4700.0}, {'current': 4.499, 'min': 800.0, 'max': 4700.0}, {'current': 4.5, 'min': 800.0, 'max': 4700.0}], 'disk': {'/': {'total': 467.8876266479492, 'used': 384.28732681274414}}, 'gpu': 'NVIDIA GeForce RTX 2080', 'gpu_count': 2, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080', 'memory_total': 8589934592}, {'name': 'NVIDIA GeForce RTX 2080', 'memory_total': 8589934592}], 'memory': {'total': 31.26947021484375}}
+2024-05-17 15:57:49,481 INFO    HandlerThread:3186429 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-17 15:57:49,481 INFO    HandlerThread:3186429 [system_monitor.py:probe():227] Publishing system info
+2024-05-17 15:57:49,481 INFO    HandlerThread:3186429 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-17 15:57:49,484 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:57:49,484 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-17 15:57:49,617 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-17 15:57:49,617 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: python_packages
+2024-05-17 15:57:49,663 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:57:49,663 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:57:50,008 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:57:50,209 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/spulps8q-wandb-metadata.json
+2024-05-17 15:57:50,277 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:50,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/requirements.txt
+2024-05-17 15:57:50,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-metadata.json
+2024-05-17 15:57:52,277 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:53,277 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:53,750 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:57:53,751 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:57:53,959 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:57:54,324 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:57:55,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:56,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:57,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:58,278 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:57:59,746 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:00,279 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:02,279 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:03,280 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:04,618 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:58:04,618 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:58:04,816 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:05,281 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:07,246 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:58:07,246 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:07,246 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:07,281 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:08,674 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,097 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:09,097 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/labels_1_41a0d3068aba36c27d72.jpg with policy now
+2024-05-17 15:58:09,097 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,111 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,112 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:09,112 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/train_batch0_1_90ada02ae3818e172d37.jpg with policy now
+2024-05-17 15:58:09,127 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:09,127 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/train_batch1_1_e21770fa21864dd32f6d.jpg with policy now
+2024-05-17 15:58:09,127 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,143 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:09,143 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg with policy now
+2024-05-17 15:58:09,143 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,251 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:09,282 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:09,282 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/labels_1_41a0d3068aba36c27d72.jpg
+2024-05-17 15:58:09,282 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch1_1_e21770fa21864dd32f6d.jpg
+2024-05-17 15:58:09,282 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch0_1_90ada02ae3818e172d37.jpg
+2024-05-17 15:58:09,282 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg
+2024-05-17 15:58:09,283 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images
+2024-05-17 15:58:09,283 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media
+2024-05-17 15:58:09,896 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:10,123 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/ok1og4pa-media/images/labels_1_41a0d3068aba36c27d72.jpg
+2024-05-17 15:58:10,287 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:10,463 INFO    wandb-upload_1:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/gtpk80dk-media/images/train_batch0_1_90ada02ae3818e172d37.jpg
+2024-05-17 15:58:10,543 INFO    wandb-upload_3:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/n6a5h0f6-media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg
+2024-05-17 15:58:10,561 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/mm0ymmz2-media/images/train_batch1_1_e21770fa21864dd32f6d.jpg
+2024-05-17 15:58:11,215 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/phkay5bw-media/images/labels_1_41a0d3068aba36c27d72.jpg
+2024-05-17 15:58:11,287 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:12,010 INFO    wandb-upload_3:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/8am6vzm6-media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg
+2024-05-17 15:58:12,047 INFO    wandb-upload_1:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/xq05q0a2-media/images/train_batch0_1_90ada02ae3818e172d37.jpg
+2024-05-17 15:58:12,287 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:12,592 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/p2qq5cu0-media/images/train_batch1_1_e21770fa21864dd32f6d.jpg
+2024-05-17 15:58:13,288 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:13,755 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:13,757 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:13,757 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:13,757 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:13,757 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:14,288 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:14,328 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:14,914 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:15,288 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:16,289 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:17,289 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:18,663 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:18,664 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:18,664 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:18,664 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:18,664 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:19,215 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:19,290 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:19,290 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:19,618 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:58:19,618 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:58:19,937 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:20,290 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/config.yaml
+2024-05-17 15:58:20,290 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:21,290 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:23,291 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:23,408 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:23,408 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:23,408 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:23,409 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:23,409 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:24,130 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:24,292 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:25,252 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:25,292 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:26,292 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:27,293 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:28,260 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:28,261 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:28,261 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:28,261 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:28,261 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:28,293 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:29,047 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:29,293 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:30,260 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:30,293 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:31,294 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:33,251 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:33,252 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:33,252 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:33,252 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:33,253 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:33,294 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:33,295 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:34,154 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:34,618 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:58:34,618 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:58:35,295 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:35,381 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:36,295 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:37,296 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:38,554 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:38,555 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:38,555 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:38,555 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:38,555 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:39,296 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:39,296 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:39,489 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:40,296 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:40,436 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:41,297 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:42,297 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:43,298 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:43,705 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:43,706 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:43,706 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:43,706 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:43,706 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:44,298 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:44,560 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:45,298 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:45,468 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:46,298 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:47,299 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:48,785 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:48,786 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:48,786 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:48,786 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:48,786 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:49,299 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:49,299 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:49,462 DEBUG   SystemMonitor:3186429 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-17 15:58:49,463 DEBUG   SenderThread:3186429 [sender.py:send():378] send: stats
+2024-05-17 15:58:49,623 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-17 15:58:49,623 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: stop_status
+2024-05-17 15:58:49,739 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:50,300 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:50,522 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:51,300 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:52,300 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:53,300 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:53,834 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:53,834 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:53,834 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:58:53,834 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:58:53,835 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:58:54,301 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:58:54,652 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:55,301 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:55,760 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:58:56,301 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:57,301 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:59,302 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:58:59,702 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,720 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,720 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/val_batch0_pred_10_20df66175e3385013f32.jpg with policy now
+2024-05-17 15:58:59,723 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,739 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,739 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg with policy now
+2024-05-17 15:58:59,739 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,777 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,777 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,777 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png with policy now
+2024-05-17 15:58:59,795 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,795 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg with policy now
+2024-05-17 15:58:59,795 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,812 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,812 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg with policy now
+2024-05-17 15:58:59,813 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,849 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,849 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/F1_curve_10_93c4d533a16332b46098.png with policy now
+2024-05-17 15:58:59,850 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,889 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,889 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,889 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/P_curve_10_fae8927e2fc824423a70.png with policy now
+2024-05-17 15:58:59,926 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:58:59,927 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,927 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/R_curve_10_b97db09e971006dd6ea7.png with policy now
+2024-05-17 15:58:59,993 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:58:59,993 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png with policy now
+2024-05-17 15:58:59,994 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:00,062 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:00,062 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/confusion_matrix_10_2411100c3832a41f789d.png with policy now
+2024-05-17 15:59:00,062 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:00,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:59:00,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg
+2024-05-17 15:59:00,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/confusion_matrix_10_2411100c3832a41f789d.png
+2024-05-17 15:59:00,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/F1_curve_10_93c4d533a16332b46098.png
+2024-05-17 15:59:00,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/R_curve_10_b97db09e971006dd6ea7.png
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch0_pred_10_20df66175e3385013f32.jpg
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/P_curve_10_fae8927e2fc824423a70.png
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png
+2024-05-17 15:59:00,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images
+2024-05-17 15:59:00,546 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:00,546 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:00,546 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/images/results_10_5f37b283e4f6d6d8a803.png with policy now
+2024-05-17 15:59:00,815 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-17 15:59:00,815 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: log_artifact
+2024-05-17 15:59:00,834 INFO    wandb-upload_1:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/nfywbhkt-media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg
+2024-05-17 15:59:00,844 INFO    wandb-upload_3:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/jjqejwoi-media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png
+2024-05-17 15:59:00,990 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/gl128ir6-media/images/val_batch0_pred_10_20df66175e3385013f32.jpg
+2024-05-17 15:59:01,086 INFO    wandb-upload_7:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/dfcd7ocv-media/images/R_curve_10_b97db09e971006dd6ea7.png
+2024-05-17 15:59:01,131 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/sd7eqc5e-media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg
+2024-05-17 15:59:01,136 INFO    wandb-upload_5:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/onpdudbb-media/images/F1_curve_10_93c4d533a16332b46098.png
+2024-05-17 15:59:01,146 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-17 15:59:01,151 INFO    wandb-upload_8:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/3l4wys0a-media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png
+2024-05-17 15:59:01,162 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:01,217 INFO    wandb-upload_9:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/25qapynp-media/images/confusion_matrix_10_2411100c3832a41f789d.png
+2024-05-17 15:59:01,230 INFO    wandb-upload_6:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/miwx6r7q-media/images/P_curve_10_fae8927e2fc824423a70.png
+2024-05-17 15:59:01,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json
+2024-05-17 15:59:01,303 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/results_10_5f37b283e4f6d6d8a803.png
+2024-05-17 15:59:01,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media
+2024-05-17 15:59:01,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images
+2024-05-17 15:59:01,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table
+2024-05-17 15:59:01,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves
+2024-05-17 15:59:01,339 INFO    wandb-upload_4:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/vvh7zi2u-media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg
+2024-05-17 15:59:01,484 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-17 15:59:01,500 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:01,815 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-17 15:59:01,830 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:01,839 INFO    wandb-upload_10:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/lpo697mf-media/images/results_10_5f37b283e4f6d6d8a803.png
+2024-05-17 15:59:01,933 INFO    wandb-upload_8:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/d9kk9r35-media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json
+2024-05-17 15:59:02,160 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: log_artifact
+2024-05-17 15:59:02,176 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-17 15:59:02,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:59:02,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json
+2024-05-17 15:59:02,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json
+2024-05-17 15:59:02,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_created():271] file/dir created: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json
+2024-05-17 15:59:02,304 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves
+2024-05-17 15:59:02,332 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/vk5m01kw-media/images/R_curve_10_b97db09e971006dd6ea7.png
+2024-05-17 15:59:02,389 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/62rydd9z-media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png
+2024-05-17 15:59:02,487 INFO    wandb-upload_5:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/7vqbcx95-media/images/P_curve_10_fae8927e2fc824423a70.png
+2024-05-17 15:59:02,496 INFO    wandb-upload_1:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/e3jrc4y3-media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg
+2024-05-17 15:59:02,541 INFO    wandb-upload_9:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/ot059rqm-media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png
+2024-05-17 15:59:02,575 INFO    wandb-upload_3:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/lm5fvqs6-media/images/val_batch0_pred_10_20df66175e3385013f32.jpg
+2024-05-17 15:59:02,604 INFO    wandb-upload_7:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/qssu0l4n-media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg
+2024-05-17 15:59:02,913 INFO    wandb-upload_12:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/2lf720cy-media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json
+2024-05-17 15:59:02,917 INFO    wandb-upload_8:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/rwphufzg-media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json
+2024-05-17 15:59:02,921 INFO    wandb-upload_11:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/7voq0o9z-media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json
+2024-05-17 15:59:02,929 INFO    wandb-upload_10:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/00x9ecj2-media/images/confusion_matrix_10_2411100c3832a41f789d.png
+2024-05-17 15:59:03,177 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:03,253 INFO    wandb-upload_6:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/fchg1sav-media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg
+2024-05-17 15:59:03,574 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/o88mu1om-media/images/results_10_5f37b283e4f6d6d8a803.png
+2024-05-17 15:59:03,630 INFO    wandb-upload_0:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/dm9otpwg-media/images/F1_curve_10_93c4d533a16332b46098.png
+2024-05-17 15:59:03,860 INFO    wandb-upload_4:3186429 [upload_job.py:push():88] Uploaded file /home/mvclab/.local/share/wandb/artifacts/staging/tmpgf8102n2
+2024-05-17 15:59:04,687 INFO    SenderThread:3186429 [sender.py:send_request_log_artifact():1455] logged artifact run_rep304yt_model - {'id': 'QXJ0aWZhY3Q6ODM5NzYwMjUw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NTkzMzMyMA==', 'latestArtifact': None}}
+2024-05-17 15:59:04,687 DEBUG   SenderThread:3186429 [sender.py:send():378] send: config
+2024-05-17 15:59:04,687 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: log_artifact
+2024-05-17 15:59:04,690 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:59:05,978 INFO    wandb-upload_5:3186429 [upload_job.py:push():88] Uploaded file /home/mvclab/.local/share/wandb/artifacts/staging/tmp30slkzud
+2024-05-17 15:59:06,794 INFO    SenderThread:3186429 [sender.py:send_request_log_artifact():1455] logged artifact run-rep304yt-curvesPrecisionRecallB_table - {'id': 'QXJ0aWZhY3Q6ODM5NzYwMzIw', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NTkzMzM1MA==', 'latestArtifact': None}}
+2024-05-17 15:59:06,794 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:06,794 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json with policy now
+2024-05-17 15:59:06,794 DEBUG   SenderThread:3186429 [sender.py:send():378] send: config
+2024-05-17 15:59:06,794 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: log_artifact
+2024-05-17 15:59:07,467 INFO    wandb-upload_9:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/ir9sa6os-media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json
+2024-05-17 15:59:08,095 INFO    wandb-upload_7:3186429 [upload_job.py:push():88] Uploaded file /home/mvclab/.local/share/wandb/artifacts/staging/tmpxg_bjc_c
+2024-05-17 15:59:08,178 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-17 15:59:08,891 INFO    SenderThread:3186429 [sender.py:send_request_log_artifact():1455] logged artifact run-rep304yt-curvesF1ConfidenceB_table - {'id': 'QXJ0aWZhY3Q6ODM5NzYwMzU1', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NTkzMzM2NA==', 'latestArtifact': None}}
+2024-05-17 15:59:08,892 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:08,892 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json with policy now
+2024-05-17 15:59:08,892 DEBUG   SenderThread:3186429 [sender.py:send():378] send: config
+2024-05-17 15:59:08,892 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: log_artifact
+2024-05-17 15:59:09,647 INFO    wandb-upload_8:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/zqmgp9p6-media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json
+2024-05-17 15:59:10,080 INFO    wandb-upload_10:3186429 [upload_job.py:push():88] Uploaded file /home/mvclab/.local/share/wandb/artifacts/staging/tmpytt9oblg
+2024-05-17 15:59:10,886 INFO    SenderThread:3186429 [sender.py:send_request_log_artifact():1455] logged artifact run-rep304yt-curvesPrecisionConfidenceB_table - {'id': 'QXJ0aWZhY3Q6ODM5NzYwMzg4', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NTkzMzM3Mg==', 'latestArtifact': None}}
+2024-05-17 15:59:10,886 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:10,886 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json with policy now
+2024-05-17 15:59:10,886 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:59:10,886 DEBUG   SenderThread:3186429 [sender.py:send():378] send: config
+2024-05-17 15:59:10,887 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: log_artifact
+2024-05-17 15:59:11,610 INFO    wandb-upload_2:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/td4abpl6-media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json
+2024-05-17 15:59:12,103 INFO    wandb-upload_4:3186429 [upload_job.py:push():88] Uploaded file /home/mvclab/.local/share/wandb/artifacts/staging/tmpgzc5bs54
+2024-05-17 15:59:12,993 INFO    SenderThread:3186429 [sender.py:send_request_log_artifact():1455] logged artifact run-rep304yt-curvesRecallConfidenceB_table - {'id': 'QXJ0aWZhY3Q6ODM5NzYwNDE0', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3NTkzMzM3Ng==', 'latestArtifact': None}}
+2024-05-17 15:59:12,993 DEBUG   SenderThread:3186429 [sender.py:send():378] send: files
+2024-05-17 15:59:12,993 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json with policy now
+2024-05-17 15:59:12,993 DEBUG   SenderThread:3186429 [sender.py:send():378] send: telemetry
+2024-05-17 15:59:12,993 DEBUG   SenderThread:3186429 [sender.py:send():378] send: exit
+2024-05-17 15:59:12,993 INFO    SenderThread:3186429 [sender.py:send_exit():585] handling exit code: 0
+2024-05-17 15:59:12,993 INFO    SenderThread:3186429 [sender.py:send_exit():587] handling runtime: 72
+2024-05-17 15:59:12,994 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:59:12,994 INFO    SenderThread:3186429 [sender.py:send_exit():593] send defer
+2024-05-17 15:59:12,994 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:12,994 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:12,994 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-17 15:59:12,994 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:12,994 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-17 15:59:12,994 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 1
+2024-05-17 15:59:12,994 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:12,995 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-17 15:59:12,995 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:12,996 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-17 15:59:12,996 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 2
+2024-05-17 15:59:12,996 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:12,996 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-17 15:59:12,996 INFO    HandlerThread:3186429 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-17 15:59:12,996 DEBUG   SystemMonitor:3186429 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-17 15:59:12,996 DEBUG   SystemMonitor:3186429 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-17 15:59:12,997 INFO    HandlerThread:3186429 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-17 15:59:12,997 INFO    HandlerThread:3186429 [interfaces.py:finish():200] Joined disk monitor
+2024-05-17 15:59:13,130 INFO    HandlerThread:3186429 [interfaces.py:finish():200] Joined gpu monitor
+2024-05-17 15:59:13,130 INFO    HandlerThread:3186429 [interfaces.py:finish():200] Joined memory monitor
+2024-05-17 15:59:13,130 INFO    HandlerThread:3186429 [interfaces.py:finish():200] Joined network monitor
+2024-05-17 15:59:13,131 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,131 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-17 15:59:13,131 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 3
+2024-05-17 15:59:13,131 DEBUG   SenderThread:3186429 [sender.py:send():378] send: stats
+2024-05-17 15:59:13,131 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:13,131 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-17 15:59:13,133 DEBUG   SenderThread:3186429 [sender.py:send():378] send: history
+2024-05-17 15:59:13,133 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: summary_record
+2024-05-17 15:59:13,134 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:59:13,134 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,134 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-17 15:59:13,134 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 4
+2024-05-17 15:59:13,134 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:13,134 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-17 15:59:13,134 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,134 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-17 15:59:13,134 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 5
+2024-05-17 15:59:13,135 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:13,135 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-17 15:59:13,135 DEBUG   SenderThread:3186429 [sender.py:send():378] send: summary
+2024-05-17 15:59:13,136 INFO    SenderThread:3186429 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-17 15:59:13,136 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,136 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-17 15:59:13,136 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 6
+2024-05-17 15:59:13,136 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:13,136 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-17 15:59:13,136 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,136 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-17 15:59:13,139 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: status_report
+2024-05-17 15:59:13,179 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: keepalive
+2024-05-17 15:59:13,179 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:13,308 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:59:13,370 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 7
+2024-05-17 15:59:13,371 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:13,371 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:13,371 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-17 15:59:13,371 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:13,371 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-17 15:59:13,745 INFO    wandb-upload_5:3186429 [upload_job.py:push():130] Uploaded file /tmp/tmp25ily_kuwandb/uep9zt9q-media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json
+2024-05-17 15:59:14,179 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:14,308 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/config.yaml
+2024-05-17 15:59:14,947 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 8
+2024-05-17 15:59:14,947 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:14,948 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:14,948 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-17 15:59:14,948 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:14,948 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-17 15:59:14,948 INFO    SenderThread:3186429 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-17 15:59:14,949 INFO    SenderThread:3186429 [job_builder.py:_get_source_type():576] no source found
+2024-05-17 15:59:14,949 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 9
+2024-05-17 15:59:14,949 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:14,949 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-17 15:59:14,949 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:14,949 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-17 15:59:14,949 INFO    SenderThread:3186429 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-17 15:59:15,179 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:15,309 INFO    Thread-12 :3186429 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:59:15,309 INFO    SenderThread:3186429 [dir_watcher.py:finish():388] scan: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files
+2024-05-17 15:59:15,309 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/requirements.txt requirements.txt
+2024-05-17 15:59:15,309 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/config.yaml config.yaml
+2024-05-17 15:59:15,310 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log output.log
+2024-05-17 15:59:15,310 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json wandb-summary.json
+2024-05-17 15:59:15,310 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-metadata.json wandb-metadata.json
+2024-05-17 15:59:15,311 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/F1_curve_10_93c4d533a16332b46098.png media/images/F1_curve_10_93c4d533a16332b46098.png
+2024-05-17 15:59:15,314 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/P_curve_10_fae8927e2fc824423a70.png media/images/P_curve_10_fae8927e2fc824423a70.png
+2024-05-17 15:59:15,314 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/results_10_5f37b283e4f6d6d8a803.png media/images/results_10_5f37b283e4f6d6d8a803.png
+2024-05-17 15:59:15,314 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch1_1_e21770fa21864dd32f6d.jpg media/images/train_batch1_1_e21770fa21864dd32f6d.jpg
+2024-05-17 15:59:15,314 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch0_pred_10_20df66175e3385013f32.jpg media/images/val_batch0_pred_10_20df66175e3385013f32.jpg
+2024-05-17 15:59:15,314 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg media/images/train_batch2_1_a44dc37da1d37f3e1e1c.jpg
+2024-05-17 15:59:15,315 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg media/images/val_batch1_pred_10_644e94568e8a4e595955.jpg
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/R_curve_10_b97db09e971006dd6ea7.png media/images/R_curve_10_b97db09e971006dd6ea7.png
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/confusion_matrix_10_2411100c3832a41f789d.png media/images/confusion_matrix_10_2411100c3832a41f789d.png
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/train_batch0_1_90ada02ae3818e172d37.jpg media/images/train_batch0_1_90ada02ae3818e172d37.jpg
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png media/images/PR_curve_10_7d7a425a1fde36f5f4dd.png
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/labels_1_41a0d3068aba36c27d72.jpg media/images/labels_1_41a0d3068aba36c27d72.jpg
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png media/images/confusion_matrix_normalized_10_28948b7640dd40315812.png
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg media/images/val_batch0_labels_10_36c71cf2287e724256fb.jpg
+2024-05-17 15:59:15,316 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg media/images/val_batch1_labels_10_716f716e796c991b95d9.jpg
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json media/table/curves/F1-Confidence(B)_table_10_5c56651167c53b3b7ff0.table.json
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json media/table/curves/Recall-Confidence(B)_table_10_f455a36f8c08e8e0cda4.table.json
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json media/table/curves/Precision-Recall(B)_table_10_1596d6380d4b490cc46e.table.json
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [dir_watcher.py:finish():402] scan save: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json media/table/curves/Precision-Confidence(B)_table_10_bea557fad46101e4c44b.table.json
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 10
+2024-05-17 15:59:15,317 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:15,317 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:15,317 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-17 15:59:15,317 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-17 15:59:15,317 INFO    SenderThread:3186429 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-17 15:59:15,802 INFO    wandb-upload_12:3186429 [upload_job.py:push():130] Uploaded file /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/requirements.txt
+2024-05-17 15:59:15,802 INFO    wandb-upload_7:3186429 [upload_job.py:push():130] Uploaded file /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/output.log
+2024-05-17 15:59:15,803 INFO    wandb-upload_11:3186429 [upload_job.py:push():130] Uploaded file /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/wandb-summary.json
+2024-05-17 15:59:15,867 INFO    wandb-upload_9:3186429 [upload_job.py:push():130] Uploaded file /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/files/config.yaml
+2024-05-17 15:59:16,067 INFO    Thread-11 (_thread_body):3186429 [sender.py:transition_state():613] send defer: 11
+2024-05-17 15:59:16,067 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:16,067 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-17 15:59:16,068 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:16,068 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-17 15:59:16,068 INFO    SenderThread:3186429 [file_pusher.py:join():175] waiting for file pusher
+2024-05-17 15:59:16,070 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 12
+2024-05-17 15:59:16,070 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:16,070 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-17 15:59:16,070 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:16,070 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-17 15:59:16,070 INFO    SenderThread:3186429 [file_stream.py:finish():601] file stream finish called
+2024-05-17 15:59:16,180 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:16,678 INFO    SenderThread:3186429 [file_stream.py:finish():605] file stream finish is done
+2024-05-17 15:59:16,678 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 13
+2024-05-17 15:59:16,678 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:16,678 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:16,678 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-17 15:59:16,678 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:16,678 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-17 15:59:16,679 INFO    SenderThread:3186429 [sender.py:transition_state():613] send defer: 14
+2024-05-17 15:59:16,679 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: defer
+2024-05-17 15:59:16,679 DEBUG   SenderThread:3186429 [sender.py:send():378] send: final
+2024-05-17 15:59:16,679 INFO    HandlerThread:3186429 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-17 15:59:16,679 DEBUG   SenderThread:3186429 [sender.py:send():378] send: footer
+2024-05-17 15:59:16,679 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: defer
+2024-05-17 15:59:16,679 INFO    SenderThread:3186429 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-17 15:59:16,680 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-17 15:59:16,680 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: poll_exit
+2024-05-17 15:59:16,680 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-17 15:59:16,680 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: server_info
+2024-05-17 15:59:16,681 DEBUG   SenderThread:3186429 [sender.py:send_request():405] send_request: server_info
+2024-05-17 15:59:16,727 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-17 15:59:16,727 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-17 15:59:16,874 DEBUG   HandlerThread:3186429 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-17 15:59:16,874 INFO    HandlerThread:3186429 [handler.py:finish():882] shutting down handler
+2024-05-17 15:59:17,681 INFO    WriterThread:3186429 [datastore.py:close():296] close: /home/mvclab/workspace/MVC_course/course4-tsungHannn/homework2/wandb/run-20240517_155748-rep304yt/run-rep304yt.wandb
+2024-05-17 15:59:17,874 INFO    SenderThread:3186429 [sender.py:finish():1545] shutting down sender
+2024-05-17 15:59:17,874 INFO    SenderThread:3186429 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-17 15:59:17,874 INFO    SenderThread:3186429 [file_pusher.py:join():175] waiting for file pusher
